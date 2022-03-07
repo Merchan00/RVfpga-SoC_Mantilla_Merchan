@@ -67,6 +67,12 @@ cd [PATH]\RVfpga-SoC_Mantilla_Merchan\LabResources\Lab2\verilatorSIM
 make clean
 make
 ```
+Para corregir unos errores de esta parte, se debe iincluir en el archivo verilated.vpp lo siguiente:
+```cpp
+#include <limits>
+#include <cstddef>
+#include <iostream>
+```
 
 De esta ejecución se generan los archivos de simulación y en especial "Vrvfpgasim.exe" que sirve para generar un archivo para poder revisar la simulación en GTKWave
 
@@ -112,6 +118,7 @@ Generating trace from Verilator
 ```
 
 ## Conclusiones
+- Se generaron las diferentes conexiones usando vivado, es importante que al momento de generar el Bitstream se tenga la versión 2019.2 de Vivado para que no haya errores.
 
 
 ## Referencias
