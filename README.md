@@ -70,6 +70,47 @@ make
 
 De esta ejecución se generan los archivos de simulación y en especial "Vrvfpgasim.exe" que sirve para generar un archivo para poder revisar la simulación en GTKWave
 
+```ini
+[env:swervolf_nexys]
+platform = chipsalliance
+board = swervolf_nexys
+framework = wd-riscv-sdk
+
+monitor_speed = 115200
+
+#debug_tool = whisper
+#board_build.bitstream_file = home/RvfpgaSoC/BlockDesign/src/rvfpga.bit
+board_debug.verilator.binary = C:/UIS/Arqui/Curso/RVfpgaSoC/Labs/LabResources/Lab2/verilatorSIM/Vrvfpgasim.exe
+```
+
+```sh
+Executing task: C:\Users\super\.platformio\penv\Scripts\platformio.exe run --target generate_trace --environment swervolf_nexys <
+
+Processing swervolf_nexys (platform: chipsalliance; board: swervolf_nexys; framework: wd-riscv-sdk)
+-------------------------------------------------------------------------------------------------------------------------------Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/chipsalliance/swervolf_nexys.html
+PLATFORM: CHIPS Alliance (1.1.0) > RVfpga: Digilent Nexys A7
+HARDWARE: 320MHz, 1.16MB RAM, 16MB Flash
+DEBUG: Current (digilent-hs1) On-board (digilent-hs1, verilator, whisper) External (olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny)
+PACKAGES:
+ - framework-wd-riscv-sdk 0.0.0-alpha+sha.ca4b2392d8
+ - tool-openocd-riscv-chipsalliance 1.1100.211104+sha.857b5cec1b
+ - tool-verilator-swervolf 0.0.201130
+ - toolchain-riscv 1.80300.190927 (8.3.0)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 0 compatible libraries
+Scanning dependencies...
+No dependencies
+Building in release mode
+Checking size .pio\build\swervolf_nexys\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   1.0% (used 12304 bytes from 1216512 bytes)
+Flash: [          ]   0.0% (used 268 bytes from 16777216 bytes)
+Generating trace from Verilator
+================================================= [SUCCESS] Took 4.49 seconds =================================================
+```
+
 ## Conclusiones
 
 
