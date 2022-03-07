@@ -126,7 +126,7 @@ Generating trace from Verilator
 ## Conclusiones
 - Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 2019.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
 - La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
-
+-En la generación de la traza del comportamiento, no se genera ningún error, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido a alguna interferencia entre Verilator y la extensión de PlatformIO de VSCode.
 
 
 
