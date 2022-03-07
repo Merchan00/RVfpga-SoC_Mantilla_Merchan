@@ -19,7 +19,7 @@ mishellmc1700@gmail.com
 - GTKWave
 - Verilator v4.106
 
-##Laboratorio 1
+## Laboratorio 1
 
 ### Conexión de los módulos
 Se utilizaron los siguientes módulos:
