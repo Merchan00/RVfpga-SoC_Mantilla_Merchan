@@ -50,7 +50,7 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 
 Se agrega el archivo generado BD.v generado en el laboratorio 1 a la carpeta "SweRVolfSoC" dentro de los recursos del Laboratorio 2.
 
-![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/LUT.png)
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/BDonNewDir.png)
 
 Adicionalmente, se verifica que el archivo pegado tenga los módulos definidos de la siguiente forma.
 
