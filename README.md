@@ -1,5 +1,6 @@
 # RVfpga SoC
-### Autores
+
+## Autores
 Juan José Mantilla Parra
 <br/>
 Est. Ingenieria electrónica - 2172324
@@ -18,8 +19,9 @@ mishellmc1700@gmail.com
 - GTKWave
 - Verilator v4.106
 
+##Laboratorio 1
 
-## Conexión de los módulos
+### Conexión de los módulos
 Se utilizaron los siguientes módulos:
 
 - 1 SweRV Core (swerv_wrapper_verilog)
@@ -32,27 +34,29 @@ Se utilizaron los siguientes módulos:
 Se realizan conexiones internas y externas tal como se muestra en el archivo.
 [Conexiones](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/BD.pdf).
 
-## Generación del bitstream
+### Generación del bitstream
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/Bitstream.png)
 
-## Recursos utilizados 
+### Recursos utilizados 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/LUT.png)
 
-### Síntesis 
+#### Síntesis 
 
 | Bloque   | Cantidad  |
 | -------- | ----------|
 | `ALU`    | 3368      |
 | `FF`     | 3331      |
 
-### Implementación 
+#### Implementación 
 
 | Bloque   | Cantidad  |
 | -------- | ----------|
 | `ALU`    | 33623     |
 | `FF`     | 18546     |
 
-## Correr el programa con Verilator
+## Laboratorio 2
+
+### Correr el programa con Verilator
 
 Se agrega el archivo generado BD.v generado en el laboratorio 1 a la carpeta "SweRVolfSoC" dentro de los recursos del Laboratorio 2.
 
@@ -66,14 +70,14 @@ Adicionalmente, se verifica que el archivo pegado tenga los módulos definidos d
 - BD_swerv_wrapper_verilog_0_0
 - BD_syscon_wrapper_0_0
 
-Después de comprobar que los módulos tengan los nombres especificados, se genera el simulador binario utilizando los sigueintes comandos en la terminal de Cygwin.
+Después de comprobar que los módulos tengan los nombres especificados, se genera el simulador binario utilizando los siguientes comandos en la terminal de Cygwin.
 
 ```sh
 cd [PATH]\RVfpga-SoC_Mantilla_Merchan\LabResources\Lab2\verilatorSIM
 make clean
 make
 ```
-Para corregir unos errores de esta parte, se debe iincluir en el archivo verilated.vpp lo siguiente:
+Para corregir unos errores de esta parte, se debe incluir en el archivo verilated.vpp lo siguiente:
 ```cpp
 #include <limits>
 #include <cstddef>
@@ -123,7 +127,7 @@ Generating trace from Verilator
 ================================================= [SUCCESS] Took 4.49 seconds =================================================
 ```
 
-### Error en la generación de trace.vcd
+#### Error en la generación de trace.vcd
 
 Después de utilizar el PlatformIO para generar el archivo "trace.vcd" y otros más, el archivo para visualizar utilizando GTKWave, "trace.vcd" no aparece en la carpeta donde aparecen el resto de los archivos generados.
 
