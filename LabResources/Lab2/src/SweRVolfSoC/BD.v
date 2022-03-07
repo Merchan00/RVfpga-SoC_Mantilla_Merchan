@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-//Date        : Mon May 31 23:25:42 2021
-//Host        : LenovoHamza running 64-bit major release  (build 9200)
+//Date        : Mon Mar  7 07:59:46 2022
+//Host        : DESKTOP-JE3GUPC running 64-bit major release  (build 9200)
 //Command     : generate_target BD.bd
 //Design      : BD
 //Purpose     : IP block netlist
@@ -485,38 +485,38 @@ module BD
 
   assign AN_0[7:0] = syscon_wrapper_0_AN;
   assign Digits_Bits_0[6:0] = syscon_wrapper_0_Digits_Bits;
-  assign bidir_0 = bidirec_0_bidir;
-  assign bidir_1 = bidirec_1_bidir;
-  assign bidir_10 = bidirec_10_bidir;
-  assign bidir_11 = bidirec_11_bidir;
-  assign bidir_12 = bidirec_12_bidir;
-  assign bidir_13 = bidirec_13_bidir;
-  assign bidir_14 = bidirec_14_bidir;
-  assign bidir_15 = bidirec_15_bidir;
-  assign bidir_16 = bidirec_16_bidir;
-  assign bidir_17 = bidirec_17_bidir;
-  assign bidir_18 = bidirec_18_bidir;
-  assign bidir_19 = bidirec_19_bidir;
-  assign bidir_2 = bidirec_2_bidir;
-  assign bidir_20 = bidirec_20_bidir;
-  assign bidir_21 = bidirec_21_bidir;
-  assign bidir_22 = bidirec_22_bidir;
-  assign bidir_23 = bidirec_23_bidir;
-  assign bidir_24 = bidirec_24_bidir;
-  assign bidir_25 = bidirec_25_bidir;
-  assign bidir_26 = bidirec_26_bidir;
-  assign bidir_27 = bidirec_27_bidir;
-  assign bidir_28 = bidirec_28_bidir;
-  assign bidir_29 = bidirec_29_bidir;
-  assign bidir_3 = bidirec_3_bidir;
-  assign bidir_30 = bidirec_30_bidir;
+  assign bidir_0 = bidirec_1_bidir;
+  assign bidir_1 = bidirec_11_bidir;
+  assign bidir_10 = bidirec_25_bidir;
+  assign bidir_11 = bidirec_30_bidir;
+  assign bidir_12 = bidirec_24_bidir;
+  assign bidir_13 = bidirec_18_bidir;
+  assign bidir_14 = bidirec_8_bidir;
+  assign bidir_15 = bidirec_7_bidir;
+  assign bidir_16 = bidirec_17_bidir;
+  assign bidir_17 = bidirec_23_bidir;
+  assign bidir_18 = bidirec_22_bidir;
+  assign bidir_19 = bidirec_16_bidir;
+  assign bidir_2 = bidirec_10_bidir;
+  assign bidir_20 = bidirec_6_bidir;
+  assign bidir_21 = bidirec_5_bidir;
+  assign bidir_22 = bidirec_15_bidir;
+  assign bidir_23 = bidirec_21_bidir;
+  assign bidir_24 = bidirec_20_bidir;
+  assign bidir_25 = bidirec_14_bidir;
+  assign bidir_26 = bidirec_4_bidir;
+  assign bidir_27 = bidirec_3_bidir;
+  assign bidir_28 = bidirec_13_bidir;
+  assign bidir_29 = bidirec_12_bidir;
+  assign bidir_3 = bidirec_0_bidir;
+  assign bidir_30 = bidirec_2_bidir;
   assign bidir_31 = bidirec_31_bidir;
-  assign bidir_4 = bidirec_4_bidir;
-  assign bidir_5 = bidirec_5_bidir;
-  assign bidir_6 = bidirec_6_bidir;
-  assign bidir_7 = bidirec_7_bidir;
-  assign bidir_8 = bidirec_8_bidir;
-  assign bidir_9 = bidirec_9_bidir;
+  assign bidir_4 = bidirec_29_bidir;
+  assign bidir_5 = bidirec_28_bidir;
+  assign bidir_6 = bidirec_27_bidir;
+  assign bidir_7 = bidirec_26_bidir;
+  assign bidir_8 = bidirec_9_bidir;
+  assign bidir_9 = bidirec_19_bidir;
   assign clk_0_1 = clk_0;
   assign dmi_hard_reset_0_1 = dmi_hard_reset_0;
   assign dmi_reg_addr_0_1 = dmi_reg_addr_0[6:0];
@@ -571,157 +571,157 @@ module BD
         .inp(gpio_wrapper_0_inp_0),
         .oe(gpio_wrapper_0_oe_0),
         .outp(bidirec_0_outp));
-  BD_bidirec_0_1 bidirec_1
+  BD_bidirec_1_0 bidirec_1
        (.bidir(bidirec_1_bidir),
         .inp(gpio_wrapper_0_inp_1),
         .oe(gpio_wrapper_0_oe_1),
         .outp(bidirec_1_outp));
-  BD_bidirec_2_1 bidirec_10
+  BD_bidirec_10_0 bidirec_10
        (.bidir(bidirec_10_bidir),
         .inp(gpio_wrapper_0_inp_10),
         .oe(gpio_wrapper_0_oe_10),
         .outp(bidirec_10_outp));
-  BD_bidirec_3_1 bidirec_11
+  BD_bidirec_11_0 bidirec_11
        (.bidir(bidirec_11_bidir),
         .inp(gpio_wrapper_0_inp_11),
         .oe(gpio_wrapper_0_oe_11),
         .outp(bidirec_11_outp));
-  BD_bidirec_4_0 bidirec_12
+  BD_bidirec_12_0 bidirec_12
        (.bidir(bidirec_12_bidir),
         .inp(gpio_wrapper_0_inp_12),
         .oe(gpio_wrapper_0_oe_12),
         .outp(bidirec_12_outp));
-  BD_bidirec_5_0 bidirec_13
+  BD_bidirec_13_0 bidirec_13
        (.bidir(bidirec_13_bidir),
         .inp(gpio_wrapper_0_inp_13),
         .oe(gpio_wrapper_0_oe_13),
         .outp(bidirec_13_outp));
-  BD_bidirec_6_0 bidirec_14
+  BD_bidirec_14_0 bidirec_14
        (.bidir(bidirec_14_bidir),
         .inp(gpio_wrapper_0_inp_14),
         .oe(gpio_wrapper_0_oe_14),
         .outp(bidirec_14_outp));
-  BD_bidirec_7_0 bidirec_15
+  BD_bidirec_15_0 bidirec_15
        (.bidir(bidirec_15_bidir),
         .inp(gpio_wrapper_0_inp_15),
         .oe(gpio_wrapper_0_oe_15),
         .outp(bidirec_15_outp));
-  BD_bidirec_0_5 bidirec_16
+  BD_bidirec_16_0 bidirec_16
        (.bidir(bidirec_16_bidir),
         .inp(gpio_wrapper_0_inp_16),
         .oe(gpio_wrapper_0_oe_16),
         .outp(bidirec_16_outp));
-  BD_bidirec_1_3 bidirec_17
+  BD_bidirec_17_0 bidirec_17
        (.bidir(bidirec_17_bidir),
         .inp(gpio_wrapper_0_inp_17),
         .oe(gpio_wrapper_0_oe_17),
         .outp(bidirec_17_outp));
-  BD_bidirec_10_0 bidirec_18
+  BD_bidirec_18_0 bidirec_18
        (.bidir(bidirec_18_bidir),
         .inp(gpio_wrapper_0_inp_18),
         .oe(gpio_wrapper_0_oe_18),
         .outp(bidirec_18_outp));
-  BD_bidirec_11_0 bidirec_19
+  BD_bidirec_19_0 bidirec_19
        (.bidir(bidirec_19_bidir),
         .inp(gpio_wrapper_0_inp_19),
         .oe(gpio_wrapper_0_oe_19),
         .outp(bidirec_19_outp));
-  BD_bidirec_0_2 bidirec_2
+  BD_bidirec_2_0 bidirec_2
        (.bidir(bidirec_2_bidir),
         .inp(gpio_wrapper_0_inp_2),
         .oe(gpio_wrapper_0_oe_2),
         .outp(bidirec_2_outp));
-  BD_bidirec_12_0 bidirec_20
+  BD_bidirec_20_0 bidirec_20
        (.bidir(bidirec_20_bidir),
         .inp(gpio_wrapper_0_inp_20),
         .oe(gpio_wrapper_0_oe_20),
         .outp(bidirec_20_outp));
-  BD_bidirec_13_0 bidirec_21
+  BD_bidirec_21_0 bidirec_21
        (.bidir(bidirec_21_bidir),
         .inp(gpio_wrapper_0_inp_21),
         .oe(gpio_wrapper_0_oe_21),
         .outp(bidirec_21_outp));
-  BD_bidirec_14_0 bidirec_22
+  BD_bidirec_22_0 bidirec_22
        (.bidir(bidirec_22_bidir),
         .inp(gpio_wrapper_0_inp_22),
         .oe(gpio_wrapper_0_oe_22),
         .outp(bidirec_22_outp));
-  BD_bidirec_15_0 bidirec_23
+  BD_bidirec_23_0 bidirec_23
        (.bidir(bidirec_23_bidir),
         .inp(gpio_wrapper_0_inp_23),
         .oe(gpio_wrapper_0_oe_23),
         .outp(bidirec_23_outp));
-  BD_bidirec_2_2 bidirec_24
+  BD_bidirec_24_0 bidirec_24
        (.bidir(bidirec_24_bidir),
         .inp(gpio_wrapper_0_inp_24),
         .oe(gpio_wrapper_0_oe_24),
         .outp(bidirec_24_outp));
-  BD_bidirec_3_2 bidirec_25
+  BD_bidirec_25_0 bidirec_25
        (.bidir(bidirec_25_bidir),
         .inp(gpio_wrapper_0_inp_25),
         .oe(gpio_wrapper_0_oe_25),
         .outp(bidirec_25_outp));
-  BD_bidirec_4_1 bidirec_26
+  BD_bidirec_26_0 bidirec_26
        (.bidir(bidirec_26_bidir),
         .inp(gpio_wrapper_0_inp_26),
         .oe(gpio_wrapper_0_oe_26),
         .outp(bidirec_26_outp));
-  BD_bidirec_5_1 bidirec_27
+  BD_bidirec_27_0 bidirec_27
        (.bidir(bidirec_27_bidir),
         .inp(gpio_wrapper_0_inp_27),
         .oe(gpio_wrapper_0_oe_27),
         .outp(bidirec_27_outp));
-  BD_bidirec_6_1 bidirec_28
+  BD_bidirec_28_0 bidirec_28
        (.bidir(bidirec_28_bidir),
         .inp(gpio_wrapper_0_inp_28),
         .oe(gpio_wrapper_0_oe_28),
         .outp(bidirec_28_outp));
-  BD_bidirec_7_1 bidirec_29
+  BD_bidirec_29_0 bidirec_29
        (.bidir(bidirec_29_bidir),
         .inp(gpio_wrapper_0_inp_29),
         .oe(gpio_wrapper_0_oe_29),
         .outp(bidirec_29_outp));
-  BD_bidirec_1_0 bidirec_3
+  BD_bidirec_3_0 bidirec_3
        (.bidir(bidirec_3_bidir),
         .inp(gpio_wrapper_0_inp_3),
         .oe(gpio_wrapper_0_oe_3),
         .outp(bidirec_3_outp));
-  BD_bidirec_8_0 bidirec_30
+  BD_bidirec_30_0 bidirec_30
        (.bidir(bidirec_30_bidir),
         .inp(gpio_wrapper_0_inp_30),
         .oe(gpio_wrapper_0_oe_30),
         .outp(bidirec_30_outp));
-  BD_bidirec_9_0 bidirec_31
+  BD_bidirec_31_0 bidirec_31
        (.bidir(bidirec_31_bidir),
         .inp(gpio_wrapper_0_inp_31),
         .oe(gpio_wrapper_0_oe_31),
         .outp(bidirec_31_outp));
-  BD_bidirec_0_3 bidirec_4
+  BD_bidirec_4_0 bidirec_4
        (.bidir(bidirec_4_bidir),
         .inp(gpio_wrapper_0_inp_4),
         .oe(gpio_wrapper_0_oe_4),
         .outp(bidirec_4_outp));
-  BD_bidirec_1_1 bidirec_5
+  BD_bidirec_5_0 bidirec_5
        (.bidir(bidirec_5_bidir),
         .inp(gpio_wrapper_0_inp_5),
         .oe(gpio_wrapper_0_oe_5),
         .outp(bidirec_5_outp));
-  BD_bidirec_2_0 bidirec_6
+  BD_bidirec_6_0 bidirec_6
        (.bidir(bidirec_6_bidir),
         .inp(gpio_wrapper_0_inp_6),
         .oe(gpio_wrapper_0_oe_6),
         .outp(bidirec_6_outp));
-  BD_bidirec_3_0 bidirec_7
+  BD_bidirec_7_0 bidirec_7
        (.bidir(bidirec_7_bidir),
         .inp(gpio_wrapper_0_inp_7),
         .oe(gpio_wrapper_0_oe_7),
         .outp(bidirec_7_outp));
-  BD_bidirec_0_4 bidirec_8
+  BD_bidirec_8_0 bidirec_8
        (.bidir(bidirec_8_bidir),
         .inp(gpio_wrapper_0_inp_8),
         .oe(gpio_wrapper_0_oe_8),
         .outp(bidirec_8_outp));
-  BD_bidirec_1_2 bidirec_9
+  BD_bidirec_9_0 bidirec_9
        (.bidir(bidirec_9_bidir),
         .inp(gpio_wrapper_0_inp_9),
         .oe(gpio_wrapper_0_oe_9),
