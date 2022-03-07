@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar  6 21:25:39 2022
+# Process ID: 30632
+# Current directory: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27284 C:\UIS\Arqui\RVfpga-SoC_Mantilla_Merchan\Lab1_v2019\Lab1_v2019.xpr
+# Log file: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/vivado.log
+# Journal file: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/typedef.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/include/common_cells/registers.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/common_defines.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/include/axi/assign.svh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.srcs/sources_1/bd/BD/BD.bd'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/clk_gen_nexys.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_alu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_bufreg.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_params.vh'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_csr.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_ctrl.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_decode.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_mem_if.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_if.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram_if.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_shift.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/bscan_tap.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/swerv_types.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/global.h'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/mem.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/sync.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/beh_lib.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dbg/dbg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_decode_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_gpr_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_ib_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_tlu_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dec/dec_trigger.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/dma/dma_ctrl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/exu/exu.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/exu/exu_alu_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/exu/exu_div_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/exu/exu_mul_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_aln_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_bp_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_compress_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ic_mem.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_ifc_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_mem_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_addrcheck.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_bus_buffer.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_bus_intf.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_clkdomain.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_dccm_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_dccm_mem.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_ecc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_lsc_ctl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_stbuf.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lsu/lsu_trigger.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/lib/mem_lib.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/pic_map_auto.h'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/pic/pic_ctrl.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/swerv.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/build.h'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/swerv_wrapper_dmi.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/swerv_wrapper_verilog.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiToWb/axi2wb.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon_wr.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/WishboneInterconnect/wb_intercon_1.2.2-r1/wb_mux.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cf_math_pkg.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/addr_decode.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_atop_filter.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_demux.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_err_slv.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_id_prepend.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/axi_intercon.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_mux.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_xbar.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/counter.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/delta_counter.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v2.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/fifo_v3.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/lzc.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/rr_arb_tree.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/stream_register.sv'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/intcon_wrapper.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/BootROM/dpram64.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/BootROM/wb_mem_wrapper.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/BootROM/bootrom_wrapper.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Peripherals/gpio/gpio_defines.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Peripherals/gpio/gpio_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Peripherals/gpio/gpio_wrapper.v'.
+INFO: [Common 17-14] Message 'Project 1-19' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] impl_1 strategy "Vivado Implementation Defaults," step write_bitstream, attribute : Could not find the file 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/LabResources/Lab1/script.tcl'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 773.344 ; gain = 144.949
+update_compile_order -fileset sources_1
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2019.2/data/boards/board_parts/kintex7/genesys2/H/board_part.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2019.2/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.2 [current_project]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:0] -->> '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:19]
+[Sun Mar  6 21:30:45 2022] Launched synth_1...
+Run output will be captured here: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:0] -->> '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:19]
+[Sun Mar  6 21:33:04 2022] Launched synth_1...
+Run output will be captured here: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.runs/synth_1/runme.log
+update_files -from_files C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v -to_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v} -filesets [get_filesets *]
+ERROR: [Vivado 12-385] Illegal file or directory name 'C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v'
+update_files -from_files C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v -to_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v} -filesets [get_filesets *]
+ERROR: [Vivado 12-385] Illegal file or directory name 'C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v'
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:0] -->> '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:19]
+[Sun Mar  6 21:42:09 2022] Launched synth_1...
+Run output will be captured here: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.runs/synth_1/runme.log
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+WARNING: [filemgmt 56-12] File 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v' cannot be added to the project because it already exists in the project, skipping this file
+export_ip_user_files -of_objects  [get_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}] -no_script -reset -force -quiet
+remove_files  {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+WARNING: [filemgmt 56-12] File 'C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v' cannot be added to the project because it already exists in the project, skipping this file
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:0] -->> '.xil_defaultlib.popcount' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/popcount.sv:19]
+[Sun Mar  6 21:44:10 2022] Launched synth_1...
+Run output will be captured here: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.runs/synth_1/runme.log

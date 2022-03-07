@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Mar  6 21:25:39 2022
+# Process ID: 30632
+# Current directory: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27284 C:\UIS\Arqui\RVfpga-SoC_Mantilla_Merchan\Lab1_v2019\Lab1_v2019.xpr
+# Log file: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/vivado.log
+# Journal file: C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1_v2019/Lab1_v2019.xpr
+update_compile_order -fileset sources_1
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.2 [current_project]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_files -from_files C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v -to_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v} -filesets [get_filesets *]
+update_files -from_files C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v -to_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v} -filesets [get_filesets *]
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+export_ip_user_files -of_objects  [get_files {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}] -no_script -reset -force -quiet
+remove_files  {C:/Windows/System32/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}
+add_files -norecurse C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1

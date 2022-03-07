@@ -1,0 +1,615 @@
+
+*** Running vivado
+    with args -log rvfpga.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rvfpga.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source rvfpga.tcl -notrace
+Command: synth_design -top rvfpga -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17864 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 884.047 ; gain = 234.781
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'rvfpga' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv:25]
+	Parameter RAM_SIZE bound to: 65536 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_gen_nexys' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/clk_gen_nexys.v:24]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_BASE' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61495]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 16 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE bound to: 32 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_BASE' (1#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61495]
+INFO: [Synth 8-6155] done synthesizing module 'clk_gen_nexys' (2#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/clk_gen_nexys.v:24]
+INFO: [Synth 8-6157] synthesizing module 'AXI_BUS' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv:20]
+	Parameter AXI_ADDR_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter AXI_DATA_WIDTH bound to: 32'b00000000000000000000000001000000 
+	Parameter AXI_ID_WIDTH bound to: 32'b00000000000000000000000000000110 
+	Parameter AXI_USER_WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter AXI_STRB_WIDTH bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'AXI_BUS' (2#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'AXI_BUS' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv:20]
+	Parameter AXI_ADDR_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter AXI_DATA_WIDTH bound to: 32'b00000000000000000000000001000000 
+	Parameter AXI_ID_WIDTH bound to: 32'b00000000000000000000000000000110 
+	Parameter AXI_USER_WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter AXI_STRB_WIDTH bound to: 32'b00000000000000000000000000001000 
+INFO: [Synth 8-6155] done synthesizing module 'AXI_BUS' (2#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_intf.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc_intf' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv:133]
+	Parameter AXI_ID_WIDTH bound to: 32'b00000000000000000000000000000110 
+	Parameter AXI_ADDR_WIDTH bound to: 32'b00000000000000000000000000100000 
+	Parameter AXI_DATA_WIDTH bound to: 32'b00000000000000000000000001000000 
+	Parameter AXI_USER_WIDTH bound to: 32'b00000000000000000000000000000001 
+	Parameter LOG_DEPTH bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'axi_cdc' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv:23]
+	Parameter LogDepth bound to: 32'b00000000000000000000000000000001 
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+	Parameter WIDTH bound to: 32'b00000000000000000000000001001010 
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrFull bound to: 2'b10 
+INFO: [Synth 8-6157] synthesizing module 'sync' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/sync.sv:15]
+	Parameter STAGES bound to: 32'b00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'sync' (3#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/sync.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'gray_to_binary' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv:15]
+	Parameter N bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'gray_to_binary' (4#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv:15]
+INFO: [Synth 8-6157] synthesizing module 'binary_to_gray' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv:15]
+	Parameter N bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-6155] done synthesizing module 'binary_to_gray' (5#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/binary_to_gray.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src' (6#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrEmpty bound to: 2'b00 
+INFO: [Synth 8-6157] synthesizing module 'spill_register' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register' (7#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst' (8#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray__parameterized0' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+	Parameter WIDTH bound to: 32'b00000000000000000000000000001001 
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized0' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrFull bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized0' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized0' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrEmpty bound to: 2'b00 
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized0' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized0' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized0' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray__parameterized0' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray__parameterized1' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+	Parameter WIDTH bound to: 32'b00000000000000000000000001000100 
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_src__parameterized1' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrFull bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_src__parameterized1' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:151]
+INFO: [Synth 8-6157] synthesizing module 'cdc_fifo_gray_dst__parameterized1' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+	Parameter LOG_DEPTH bound to: 32'sb00000000000000000000000000000001 
+	Parameter SYNC_STAGES bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrWidth bound to: 32'sb00000000000000000000000000000010 
+	Parameter PtrEmpty bound to: 2'b00 
+INFO: [Synth 8-6157] synthesizing module 'spill_register__parameterized1' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+	Parameter Bypass bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'spill_register__parameterized1' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray_dst__parameterized1' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:209]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_fifo_gray__parameterized1' (9#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/cdc_fifo_gray.sv:81]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc' (10#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'axi_cdc_intf' (11#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/Interconnect/AxiInterconnect/pulp-platform.org__axi_0.25.0/src/axi_cdc.sv:133]
+INFO: [Synth 8-6157] synthesizing module 'litedram_top' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_top.v:27]
+	Parameter ID_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'litedram_core' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:4]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:962]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:965]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:967]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1044]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1047]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1049]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1126]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1129]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1131]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1208]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1211]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1213]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1290]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1293]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1295]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1372]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1375]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1377]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1454]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1457]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1459]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1536]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1539]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1541]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1591]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1593]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1595]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:1598]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2519]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2519]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2520]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2520]
+INFO: [Synth 8-3876] $readmem data file 'litedram_core.init' is read successfully [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16699]
+INFO: [Synth 8-3876] $readmem data file 'mem_1.init' is read successfully [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16719]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15886]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15955]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16023]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16171]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (12#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:1075]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16776]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYCTRL' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:35014]
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYCTRL' (13#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:35014]
+WARNING: [Synth 8-7023] instance 'IDELAYCTRL' of module 'IDELAYCTRL' has 3 connections declared, but only 2 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16776]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:50288]
+	Parameter DATA_RATE_OQ bound to: DDR - type: string 
+	Parameter DATA_RATE_TQ bound to: BUF - type: string 
+	Parameter DATA_WIDTH bound to: 4 - type: integer 
+	Parameter INIT_OQ bound to: 1'b0 
+	Parameter INIT_TQ bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter IS_D3_INVERTED bound to: 1'b0 
+	Parameter IS_D4_INVERTED bound to: 1'b0 
+	Parameter IS_D5_INVERTED bound to: 1'b0 
+	Parameter IS_D6_INVERTED bound to: 1'b0 
+	Parameter IS_D7_INVERTED bound to: 1'b0 
+	Parameter IS_D8_INVERTED bound to: 1'b0 
+	Parameter IS_T1_INVERTED bound to: 1'b0 
+	Parameter IS_T2_INVERTED bound to: 1'b0 
+	Parameter IS_T3_INVERTED bound to: 1'b0 
+	Parameter IS_T4_INVERTED bound to: 1'b0 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_OQ bound to: 1'b0 
+	Parameter SRVAL_TQ bound to: 1'b0 
+	Parameter TBYTE_CTL bound to: FALSE - type: string 
+	Parameter TBYTE_SRC bound to: FALSE - type: string 
+	Parameter TRISTATE_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (14#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:50288]
+WARNING: [Synth 8-7023] instance 'OSERDESE2' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16787]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:46225]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (15#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:46225]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_1' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16815]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_2' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16837]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_3' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16859]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_4' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16881]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_5' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16903]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_6' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16925]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_7' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16947]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_8' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16969]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_9' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16991]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_10' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17013]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_11' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17035]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_12' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17057]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_13' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17079]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_14' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17101]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_15' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17123]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_16' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17145]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_17' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17167]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_18' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17189]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_19' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17211]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_20' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17233]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_21' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17255]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_22' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17277]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_23' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17299]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_24' of module 'OSERDESE2' has 27 connections declared, but only 17 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17321]
+INFO: [Synth 8-6157] synthesizing module 'IOBUFDS' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36213]
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUFDS' (16#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36213]
+WARNING: [Synth 8-7023] instance 'IOBUFDS' of module 'IOBUFDS' has 5 connections declared, but only 4 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17341]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_25' of module 'OSERDESE2' has 27 connections declared, but only 17 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17354]
+WARNING: [Synth 8-7023] instance 'IOBUFDS_1' of module 'IOBUFDS' has 5 connections declared, but only 4 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17374]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_26' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17387]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_27' of module 'OSERDESE2' has 27 connections declared, but only 13 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17409]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_28' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17431]
+INFO: [Synth 8-6157] synthesizing module 'ISERDESE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:38572]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 4 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter IS_CLKB_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIVP_INVERTED bound to: 1'b0 
+	Parameter IS_CLKDIV_INVERTED bound to: 1'b0 
+	Parameter IS_CLK_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_OCLKB_INVERTED bound to: 1'b0 
+	Parameter IS_OCLK_INVERTED bound to: 1'b0 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'ISERDESE2' (17#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:38572]
+WARNING: [Synth 8-7023] instance 'ISERDESE2' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17457]
+INFO: [Synth 8-6157] synthesizing module 'IDELAYE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:35027]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_DATAIN_INVERTED bound to: 1'b0 
+	Parameter IS_IDATAIN_INVERTED bound to: 1'b0 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+	Parameter SIM_DELAY_D bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IDELAYE2' (18#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:35027]
+WARNING: [Synth 8-7023] instance 'IDELAYE2' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17484]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (19#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:36196]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_29' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17507]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_1' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17533]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_1' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17560]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_30' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17583]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_2' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17609]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_2' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17636]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_31' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17659]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_3' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17685]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_3' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17712]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_32' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17735]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_4' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17761]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_4' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17788]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_33' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17811]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_5' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17837]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_5' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17864]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_34' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17887]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_6' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17913]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_6' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17940]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_35' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17963]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_7' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:17989]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_7' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18016]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_36' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18039]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_8' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18065]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_8' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18092]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_37' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18115]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_9' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18141]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_9' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18168]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_38' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18191]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_10' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18217]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_10' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18244]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_39' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18267]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_11' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18293]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_11' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18320]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_40' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18343]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_12' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18369]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_12' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18396]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_41' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18419]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_13' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18445]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_13' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18472]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_42' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18495]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_14' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18521]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_14' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18548]
+WARNING: [Synth 8-7023] instance 'OSERDESE2_43' of module 'OSERDESE2' has 27 connections declared, but only 16 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18571]
+WARNING: [Synth 8-7023] instance 'ISERDESE2_15' of module 'ISERDESE2' has 28 connections declared, but only 15 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18597]
+WARNING: [Synth 8-7023] instance 'IDELAYE2_15' of module 'IDELAYE2' has 12 connections declared, but only 7 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18624]
+INFO: [Synth 8-6157] synthesizing module 'serv_rf_top' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_top.v:3]
+	Parameter RESET_PC bound to: 1'b0 
+	Parameter WITH_CSR bound to: 1 - type: integer 
+	Parameter RF_WIDTH bound to: 2 - type: integer 
+	Parameter RF_L2D bound to: 10 - type: integer 
+	Parameter CSR_REGS bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'serv_rf_ram_if' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram_if.v:2]
+	Parameter width bound to: 2 - type: integer 
+	Parameter csr_regs bound to: 4 - type: integer 
+	Parameter depth bound to: 576 - type: integer 
+	Parameter l2w bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'serv_rf_ram_if' (20#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram_if.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_rf_ram' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram.v:1]
+	Parameter width bound to: 2 - type: integer 
+	Parameter csr_regs bound to: 4 - type: integer 
+	Parameter depth bound to: 576 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'serv_rf_ram' (21#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_ram.v:1]
+INFO: [Synth 8-6157] synthesizing module 'serv_top' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v:3]
+	Parameter WITH_CSR bound to: 1 - type: integer 
+	Parameter RESET_PC bound to: 1'b0 
+INFO: [Synth 8-6157] synthesizing module 'serv_csr' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_csr.v:2]
+	Parameter CSR_SOURCE_CSR bound to: 2'b00 
+	Parameter CSR_SOURCE_EXT bound to: 2'b01 
+	Parameter CSR_SOURCE_SET bound to: 2'b10 
+	Parameter CSR_SOURCE_CLR bound to: 2'b11 
+	Parameter CSR_MSCRATCH bound to: 2'b00 
+	Parameter CSR_MTVEC bound to: 2'b01 
+	Parameter CSR_MEPC bound to: 2'b10 
+	Parameter CSR_MTVAL bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'serv_csr' (22#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_csr.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_state' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v:1]
+	Parameter WITH_CSR bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'serv_state' (23#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v:1]
+INFO: [Synth 8-6157] synthesizing module 'serv_decode' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_decode.v:2]
+	Parameter CSR_SOURCE_CSR bound to: 2'b00 
+	Parameter CSR_SOURCE_EXT bound to: 2'b01 
+	Parameter CSR_SOURCE_SET bound to: 2'b10 
+	Parameter CSR_SOURCE_CLR bound to: 2'b11 
+	Parameter CSR_MSCRATCH bound to: 2'b00 
+	Parameter CSR_MTVEC bound to: 2'b01 
+	Parameter CSR_MEPC bound to: 2'b10 
+	Parameter CSR_MTVAL bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'serv_decode' (24#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_decode.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_bufreg' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_bufreg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'serv_bufreg' (25#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_bufreg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'serv_ctrl' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_ctrl.v:2]
+	Parameter RESET_PC bound to: 1'b0 
+	Parameter WITH_CSR bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'serv_ctrl' (26#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_ctrl.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_alu' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_alu.v:2]
+	Parameter BOOL_LUT bound to: 16'b1000111010010110 
+INFO: [Synth 8-6157] synthesizing module 'serv_shift' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_shift.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'serv_shift' (27#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_shift.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'serv_alu' (28#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_alu.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_rf_if' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_if.v:2]
+	Parameter WITH_CSR bound to: 1 - type: integer 
+	Parameter CSR_SOURCE_CSR bound to: 2'b00 
+	Parameter CSR_SOURCE_EXT bound to: 2'b01 
+	Parameter CSR_SOURCE_SET bound to: 2'b10 
+	Parameter CSR_SOURCE_CLR bound to: 2'b11 
+	Parameter CSR_MSCRATCH bound to: 2'b00 
+	Parameter CSR_MTVEC bound to: 2'b01 
+	Parameter CSR_MEPC bound to: 2'b10 
+	Parameter CSR_MTVAL bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'serv_rf_if' (29#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_if.v:2]
+INFO: [Synth 8-6157] synthesizing module 'serv_mem_if' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_mem_if.v:2]
+	Parameter WITH_CSR bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'serv_mem_if' (30#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_mem_if.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'serv_top' (31#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'serv_rf_top' (32#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/serv_1.0.2/rtl/serv_rf_top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'FD' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13467]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FD' (33#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13467]
+INFO: [Synth 8-6157] synthesizing module 'PLLE2_ADV' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61416]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT bound to: 16 - type: integer 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: double 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: double 
+	Parameter CLKOUT0_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT1_DIVIDE bound to: 16 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT2_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT3_DIVIDE bound to: 8 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT3_PHASE bound to: 90.000000 - type: double 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: double 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: double 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: double 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: double 
+	Parameter REF_JITTER2 bound to: 0.010000 - type: double 
+	Parameter STARTUP_WAIT bound to: FALSE - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'PLLE2_ADV' (34#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:61416]
+WARNING: [Synth 8-7023] instance 'PLLE2_ADV' of module 'PLLE2_ADV' has 21 connections declared, but only 9 given [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18920]
+INFO: [Synth 8-6157] synthesizing module 'FDPE' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13648]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_PRE_INVERTED bound to: 1'b0 
+INFO: [Synth 8-6155] done synthesizing module 'FDPE' (35#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:13648]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine0_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14657]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine0_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14658]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine1_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14703]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine1_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14704]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine2_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14749]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine2_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14750]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine3_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14795]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine3_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14796]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine4_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14841]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine4_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14842]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine5_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14887]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine5_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14888]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine6_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14933]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine6_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14934]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine7_cmd_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14979]
+WARNING: [Synth 8-6014] Unused sequential element sdram_bankmachine7_cmd_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:14980]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15680]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15681]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_payload_lock_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15686]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_payload_prot_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15687]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_payload_cache_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15688]
+WARNING: [Synth 8-6014] Unused sequential element write_aw_buffer_source_payload_qos_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15689]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_first_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15771]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_last_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15772]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_payload_lock_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15777]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_payload_prot_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15778]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_payload_cache_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15779]
+WARNING: [Synth 8-6014] Unused sequential element read_ar_buffer_source_payload_qos_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15780]
+WARNING: [Synth 8-6014] Unused sequential element soccontroller_scratch_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15932]
+WARNING: [Synth 8-6014] Unused sequential element soccontroller_bus_errors_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15933]
+WARNING: [Synth 8-6014] Unused sequential element init_done_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15948]
+WARNING: [Synth 8-6014] Unused sequential element init_error_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:15952]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_rst_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16000]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_half_sys8x_taps_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16004]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_wlevel_en_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16008]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_dly_sel_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16012]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_rdphase_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16016]
+WARNING: [Synth 8-6014] Unused sequential element a7ddrphy_wrphase_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16020]
+WARNING: [Synth 8-6014] Unused sequential element sdram_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16110]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector0_command_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16114]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector0_address_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16121]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector0_baddress_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16125]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector0_wrdata_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16138]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector0_rddata_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16139]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector1_command_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16143]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector1_address_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16150]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector1_baddress_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16154]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector1_wrdata_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16167]
+WARNING: [Synth 8-6014] Unused sequential element sdram_phaseinjector1_rddata_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16168]
+WARNING: [Synth 8-6014] Unused sequential element timer_load_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16237]
+WARNING: [Synth 8-6014] Unused sequential element timer_reload_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16250]
+WARNING: [Synth 8-6014] Unused sequential element timer_en_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16254]
+WARNING: [Synth 8-6014] Unused sequential element timer_value_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16259]
+WARNING: [Synth 8-6014] Unused sequential element timer_status_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16260]
+WARNING: [Synth 8-6014] Unused sequential element timer_enable_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16268]
+WARNING: [Synth 8-6014] Unused sequential element uart_txfull_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16298]
+WARNING: [Synth 8-6014] Unused sequential element uart_rxempty_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16299]
+WARNING: [Synth 8-6014] Unused sequential element uart_status_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16300]
+WARNING: [Synth 8-6014] Unused sequential element uart_enable_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16308]
+WARNING: [Synth 8-6014] Unused sequential element uart_txempty_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16309]
+WARNING: [Synth 8-6014] Unused sequential element uart_rxfull_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16310]
+WARNING: [Synth 8-6014] Unused sequential element uart_phy_re_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16340]
+WARNING: [Synth 8-6014] Unused sequential element memdat_1_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16728]
+WARNING: [Synth 8-6014] Unused sequential element memdat_3_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:16745]
+WARNING: [Synth 8-6014] Unused sequential element memdat_5_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18646]
+WARNING: [Synth 8-6014] Unused sequential element memdat_6_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18660]
+WARNING: [Synth 8-6014] Unused sequential element memdat_7_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18674]
+WARNING: [Synth 8-6014] Unused sequential element memdat_8_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18688]
+WARNING: [Synth 8-6014] Unused sequential element memdat_9_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18702]
+WARNING: [Synth 8-6014] Unused sequential element memdat_10_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18716]
+WARNING: [Synth 8-6014] Unused sequential element memdat_11_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18730]
+WARNING: [Synth 8-6014] Unused sequential element memdat_12_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18744]
+WARNING: [Synth 8-6014] Unused sequential element memdat_13_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18769]
+WARNING: [Synth 8-6014] Unused sequential element memdat_15_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18785]
+WARNING: [Synth 8-6014] Unused sequential element memdat_16_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18799]
+WARNING: [Synth 8-6014] Unused sequential element memdat_17_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18814]
+WARNING: [Synth 8-6014] Unused sequential element memdat_19_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18830]
+INFO: [Synth 8-4471] merging register 'memadr_3_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18947]
+INFO: [Synth 8-4471] merging register 'memadr_4_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18957]
+INFO: [Synth 8-4471] merging register 'memadr_5_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18967]
+INFO: [Synth 8-4471] merging register 'memadr_6_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18977]
+INFO: [Synth 8-4471] merging register 'memadr_7_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18987]
+INFO: [Synth 8-4471] merging register 'memadr_8_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18997]
+INFO: [Synth 8-4471] merging register 'memadr_9_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:19007]
+WARNING: [Synth 8-6014] Unused sequential element memadr_3_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18947]
+WARNING: [Synth 8-6014] Unused sequential element memadr_4_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18957]
+WARNING: [Synth 8-6014] Unused sequential element memadr_5_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18967]
+WARNING: [Synth 8-6014] Unused sequential element memadr_6_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18977]
+WARNING: [Synth 8-6014] Unused sequential element memadr_7_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18987]
+WARNING: [Synth 8-6014] Unused sequential element memadr_8_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18997]
+WARNING: [Synth 8-6014] Unused sequential element memadr_9_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:19007]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip142_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2839]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip132_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2837]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip122_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2835]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip112_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2833]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip102_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2831]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip92_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2829]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip82_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2827]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip72_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2825]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip62_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2823]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip52_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2821]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip42_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2819]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip32_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2817]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip22_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2815]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip14_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2813]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip04_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2811]
+WARNING: [Synth 8-3936] Found unconnected internal register 'a7ddrphy_bitslip152_reg' and it is trimmed from '8' to '4' bits. [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:2841]
+INFO: [Synth 8-4471] merging register 'memadr_1_reg[0:0]' into 'memadr_2_reg[0:0]' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18758]
+INFO: [Synth 8-4471] merging register 'sdram_dfi_p1_cs_n_reg' into 'sdram_dfi_p0_cs_n_reg' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:4323]
+WARNING: [Synth 8-6014] Unused sequential element sdram_dfi_p1_cs_n_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:4323]
+WARNING: [Synth 8-6014] Unused sequential element memadr_1_reg was removed.  [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:18758]
+INFO: [Synth 8-6155] done synthesizing module 'litedram_core' (36#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_core.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'litedram_top' (37#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/LiteDRAM/litedram_top.v:27]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv:166]
+INFO: [Synth 8-6157] synthesizing module 'STARTUPE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:78135]
+	Parameter PROG_USR bound to: FALSE - type: string 
+	Parameter SIM_CCLK_FREQ bound to: 0.000000 - type: double 
+INFO: [Synth 8-6155] done synthesizing module 'STARTUPE2' (38#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:78135]
+INFO: [Synth 8-6157] synthesizing module 'bscan_tap' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/bscan_tap.sv:16]
+	Parameter AWIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'BSCANE2' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BSCANE2' (39#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+INFO: [Synth 8-6157] synthesizing module 'BSCANE2__parameterized0' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BSCANE2__parameterized0' (39#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+INFO: [Synth 8-6157] synthesizing module 'BSCANE2__parameterized1' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+	Parameter DISABLE_JTAG bound to: FALSE - type: string 
+	Parameter JTAG_CHAIN bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BSCANE2__parameterized1' (39#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:876]
+INFO: [Synth 8-6155] done synthesizing module 'bscan_tap' (40#1) [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/OtherSources/bscan_tap.sv:16]
+INFO: [Synth 8-6157] synthesizing module 'BD_wrapper' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v:12]
+ERROR: [Synth 8-439] module 'BD' not found [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v:264]
+ERROR: [Synth 8-6156] failed synthesizing module 'BD_wrapper' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.gen/sources_1/bd/BD/hdl/BD_wrapper.v:12]
+ERROR: [Synth 8-6156] failed synthesizing module 'rvfpga' [C:/UIS/Arqui/RVfpga-SoC_Mantilla_Merchan/Lab1/Lab1.srcs/sources_1/imports/src/rvfpga.sv:25]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1018.055 ; gain = 368.789
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+156 Infos, 184 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  6 21:44:29 2022...

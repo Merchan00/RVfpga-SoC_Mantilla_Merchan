@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar  6 17:00:45 2022
+# Process ID: 27840
+# Current directory: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_2_13_synth_1
+# Command line: vivado.exe -log BD_bidirec_2_13.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BD_bidirec_2_13.tcl
+# Log file: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_2_13_synth_1/BD_bidirec_2_13.vds
+# Journal file: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_2_13_synth_1\vivado.jou
+#-----------------------------------------------------------
+source BD_bidirec_2_13.tcl -notrace
