@@ -123,6 +123,16 @@ Generating trace from Verilator
 ================================================= [SUCCESS] Took 4.49 seconds =================================================
 ```
 
+### Error en la generación de trace.vcd
+
+Después de utilizar el PlatformIO para generar el archivo "trace.vcd" y otros más, el archivo para visualizar utilizando GTKWave, "trace.vcd" no aparece en la carpeta donde aparecen el resto de los archivos generados.
+
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/NotTrace.png)
+
+Adicionalmente, para comprobar que no sea efecto de la versión de PlatformIO, se trabajó con la versión más actual (2.4.2) y con la versión utilizada en la guía de la práctica (2.0.1), este cambio no hace que se arroje el archivo.
+
+
+
 ## Conclusiones
 - Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 2019.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
 - Se debe trabajar con extremo cuidado las direcciones de los archivos, pues se trabaja con fuentes adicionales propuestas por el ejercicio. 
