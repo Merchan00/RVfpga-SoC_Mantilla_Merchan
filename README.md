@@ -119,6 +119,7 @@ Generating trace from Verilator
 
 ## Conclusiones
 - Se generaron las diferentes conexiones usando vivado, es importante que al momento de generar el Bitstream se tenga la versión 2019.2 de Vivado para que no haya errores.
+- La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
 
 
 ## Referencias
