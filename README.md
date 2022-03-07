@@ -12,6 +12,12 @@ Est. Ingenieria electrónica - 2172329
 <br/>
 mishellmc1700@gmail.com
 
+## Herramientas
+- Vivado v2019.2 + Digilent Board Files
+- Visual Studio Code + Extensión PlatformIO
+- GTKWave
+- Verilator v4.106
+
 
 ## Conexión de los módulos
 Se utilizaron los siguientes módulos:
