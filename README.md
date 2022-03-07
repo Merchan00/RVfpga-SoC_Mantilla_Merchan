@@ -74,9 +74,9 @@ De esta ejecución se generan los archivos de simulación y en especial "Vrvfpga
 
 
 ## Referencias
-- [Imagination University Programme - RVfpga – Introduction to RVfpgaSoC – EN – V1.0](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
+- [Imagination University Programme: RVfpga – Introduction to RVfpgaSoC – EN – V1.0](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
 - [Descarga archivos boards Vivado](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-sdk?redirect=1#installing_digilent_board_files)
-- [Instalación board en Nexys A7 en Vivado](https://store.digilentinc.com/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/)
+- [Instalación board Nexys A7 en Vivado](https://store.digilentinc.com/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/)
 - [Descarga Vivado](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2019-2.html)
 - [SweRVolf Core](https://github.com/chipsalliance/Cores-SweRVolf)
 - [PlatformIO - RVfpga: Digilent Nexys A7](https://docs.platformio.org/en/latest/boards/chipsalliance/swervolf_nexys.html)
