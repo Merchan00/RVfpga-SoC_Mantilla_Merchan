@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="BD_bidirec_22_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_22_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_30_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_30_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_5_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_5_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_4_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_6_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_6_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_1_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_12_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_12_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_7_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_25_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_25_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_26_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_26_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_21_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_21_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_13_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_13_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_8_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_8_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_3_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_20_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_20_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_17_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_17_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_10_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_11_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_11_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_14_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_14_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_9_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_9_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_27_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_27_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_15_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_15_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_16_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_16_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_24_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_24_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_23_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_23_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_28_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_28_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_31_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_31_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="BD_bidirec_29_0_synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/BD_bidirec_29_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="BD_bidirec_22_0_synth_1"/>
+		<Parent Id="BD_bidirec_30_0_synth_1"/>
+		<Parent Id="BD_bidirec_5_0_synth_1"/>
+		<Parent Id="BD_bidirec_4_0_synth_1"/>
+		<Parent Id="BD_bidirec_6_0_synth_1"/>
+		<Parent Id="BD_bidirec_1_0_synth_1"/>
+		<Parent Id="BD_bidirec_12_0_synth_1"/>
+		<Parent Id="BD_bidirec_7_0_synth_1"/>
+		<Parent Id="BD_bidirec_25_0_synth_1"/>
+		<Parent Id="BD_bidirec_26_0_synth_1"/>
+		<Parent Id="BD_bidirec_21_0_synth_1"/>
+		<Parent Id="BD_bidirec_13_0_synth_1"/>
+		<Parent Id="BD_bidirec_8_0_synth_1"/>
+		<Parent Id="BD_bidirec_3_0_synth_1"/>
+		<Parent Id="BD_bidirec_20_0_synth_1"/>
+		<Parent Id="BD_bidirec_17_0_synth_1"/>
+		<Parent Id="BD_bidirec_10_0_synth_1"/>
+		<Parent Id="BD_bidirec_11_0_synth_1"/>
+		<Parent Id="BD_bidirec_14_0_synth_1"/>
+		<Parent Id="BD_bidirec_9_0_synth_1"/>
+		<Parent Id="BD_bidirec_27_0_synth_1"/>
+		<Parent Id="BD_bidirec_15_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_0_synth_1"/>
+		<Parent Id="BD_bidirec_24_0_synth_1"/>
+		<Parent Id="BD_bidirec_23_0_synth_1"/>
+		<Parent Id="BD_bidirec_28_0_synth_1"/>
+		<Parent Id="BD_bidirec_31_0_synth_1"/>
+		<Parent Id="BD_bidirec_29_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="BD_bidirec_22_0_synth_1"/>
+		<Parent Id="BD_bidirec_30_0_synth_1"/>
+		<Parent Id="BD_bidirec_5_0_synth_1"/>
+		<Parent Id="BD_bidirec_4_0_synth_1"/>
+		<Parent Id="BD_bidirec_6_0_synth_1"/>
+		<Parent Id="BD_bidirec_1_0_synth_1"/>
+		<Parent Id="BD_bidirec_12_0_synth_1"/>
+		<Parent Id="BD_bidirec_7_0_synth_1"/>
+		<Parent Id="BD_bidirec_25_0_synth_1"/>
+		<Parent Id="BD_bidirec_26_0_synth_1"/>
+		<Parent Id="BD_bidirec_21_0_synth_1"/>
+		<Parent Id="BD_bidirec_13_0_synth_1"/>
+		<Parent Id="BD_bidirec_8_0_synth_1"/>
+		<Parent Id="BD_bidirec_3_0_synth_1"/>
+		<Parent Id="BD_bidirec_20_0_synth_1"/>
+		<Parent Id="BD_bidirec_17_0_synth_1"/>
+		<Parent Id="BD_bidirec_10_0_synth_1"/>
+		<Parent Id="BD_bidirec_11_0_synth_1"/>
+		<Parent Id="BD_bidirec_14_0_synth_1"/>
+		<Parent Id="BD_bidirec_9_0_synth_1"/>
+		<Parent Id="BD_bidirec_27_0_synth_1"/>
+		<Parent Id="BD_bidirec_15_0_synth_1"/>
+		<Parent Id="BD_bidirec_16_0_synth_1"/>
+		<Parent Id="BD_bidirec_24_0_synth_1"/>
+		<Parent Id="BD_bidirec_23_0_synth_1"/>
+		<Parent Id="BD_bidirec_28_0_synth_1"/>
+		<Parent Id="BD_bidirec_31_0_synth_1"/>
+		<Parent Id="BD_bidirec_29_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,1179 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 12916
+License: Customer
+
+Current time: 	Mon Mar 07 07:45:17 COT 2022
+Time zone: 	Colombia Standard Time (America/Bogota)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 73 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Mishell Merchán
+User home directory: C:/Users/Usuario
+User working directory: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects
+User country: 	CO
+User language: 	es
+User locale: 	es_CO
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/Usuario/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/Usuario/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/Usuario/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/vivado.log
+Vivado journal file location: 	C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/vivado.jou
+Engine tmp dir: 	C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/.Xil/Vivado-12916-DESKTOP-JE3GUPC
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 651 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// HOptionPane Warning: 'This project was created with a future version of Vivado. It will be opened in read-only mode for the protection of unrecognized data. Please use 'File | Save Project As...' if you need to alter a copy of this project. The project may or may not open reliably with this version of Vivado. OK to proceed and open the project? (Future Project Version)'
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.xpr. Version: Vivado v2020.2 
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 651 MB. GUI used memory: 45 MB. Current time: 3/7/22, 7:45:20 AM COT
+// Tcl Message: open_project {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects' 
+// Tcl Message: ERROR: [Project 1-208] No val for DA Elab Attr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 66 MB (+67116kb) [00:00:14]
+// [Engine Memory]: 718 MB (+601844kb) [00:00:14]
+// [GUI Memory]: 103 MB (+34865kb) [00:00:15]
+// WARNING: HEventQueue.dispatchEvent() is taking  2925 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 763.672 ; gain = 76.766 
+// Tcl Message: ERROR: [Common 17-39] 'open_project' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'open_project' failed due to earlier errors.  
+dismissDialog("Open Project"); // bB (cr)
+// y (cr): Project is Read-Only: addNotify
+// a (cr): Critical Messages: addNotify
+// [Engine Memory]: 755 MB (+1166kb) [00:00:19]
+selectButton(PAResourceOtoP.Project_SAVE_PROJECT_AS, "Save Project As..."); // a (y)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aG (cr): Save Project As: addNotify
+dismissDialog("Project is Read-Only"); // y (cr)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 795 MB (+2225kb) [00:00:28]
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Lab1", true); // ac (Q, aG)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aG)
+// 'o' command handler elapsed time: 7 seconds
+dismissDialog("Save Project As"); // aG (cr)
+dismissDialog("Critical Messages"); // a (cr)
+// TclEventType: PROJECT_RENAME
+// bB (cr):  Save Project As : addNotify
+// Tcl Message: save_project_as Lab1 {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1} -force 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1' 
+// HMemoryUtils.trashcanNow. Engine heap size: 805 MB. GUI used memory: 58 MB. Current time: 3/7/22, 7:45:40 AM COT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 115 MB (+7232kb) [00:00:34]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PROJECT_RENAME
+// [GUI Memory]: 122 MB (+1220kb) [00:00:44]
+// Tcl Message: save_project_as: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 841.508 ; gain = 14.734 
+// bB (cr):  Save Constraints : addNotify
+// Elapsed time: 17 seconds
+dismissDialog("Save Constraints"); // bB (cr)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files 
+// Tcl Message: INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' 
+// Tcl Message: INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1' 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent"); // af (cr)
+selectMenuItem(PAResourceCommand.PACommandNames_SAVE_PROJECT_AS, "Save As..."); // ai (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_PROJECT_AS
+// aG (cr): Save Project As: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Lab1"); // ac (Q, aG)
+selectCheckBox(PAResourceOtoP.ProjectNameChooser_CREATE_PROJECT_SUBDIRECTORY, "Create project subdirectory", false); // g (Q, aG): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aG)
+// 'o' command handler elapsed time: 9 seconds
+selectButton("OptionPane.button", "Yes"); // JButton (A, G)
+dismissDialog("Save Project As"); // aG (cr)
+// Tcl Message: save_project_as Lab1 {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects} -force 
+// bB (cr):  Save Project As : addNotify
+// TclEventType: PROJECT_RENAME
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_RENAME
+// Tcl Message: save_project_as: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 844.875 ; gain = 0.805 
+// bB (cr):  Save Constraints : addNotify
+dismissDialog("Save Constraints"); // bB (cr)
+// Tcl Message: import_files 
+// Tcl Message: INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1' 
+// Tcl Message: INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1' INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 827 MB. GUI used memory: 59 MB. Current time: 3/7/22, 7:46:24 AM COT
+// [Engine Memory]: 844 MB (+9619kb) [00:01:22]
+// Elapsed time: 138 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1819 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 881 MB. GUI used memory: 75 MB. Current time: 3/7/22, 7:48:36 AM COT
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // t (a, I)
+// [Engine Memory]: 889 MB (+2083kb) [00:03:28]
+// c (I): Select Device: addNotify
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (B, c)
+// WARNING: HEventQueue.dispatchEvent() is taking  1644 ms.
+// Elapsed time: 14 seconds
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "Nexys A7-100T ; Nexys A7-100T ; digilentinc.com ; 1.2 ; xc7a100tcsg324-1 ; 324 ; D.0 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 16, "Nexys A7-100T", 0); // d (O, c)
+// [Engine Memory]: 947 MB (+14780kb) [00:03:48]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+dismissDialog("Select Device"); // c (I)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (I)
+// bB (cr):  Change Settings : addNotify
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part digilentinc.com:nexys-a7-100t:part0:1.2 [current_project] 
+dismissDialog("Change Settings"); // bB (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+dismissDialog("Settings"); // I (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv)]", 4); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : xil_defaultlib.BD_wrapper]", 9, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : xil_defaultlib.BD_wrapper]", 9, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : xil_defaultlib.BD_wrapper]", 9, false); // B (F, cr)
+// [GUI Memory]: 130 MB (+2199kb) [00:04:06]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : xil_defaultlib.BD_wrapper]", 9, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : xil_defaultlib.BD_wrapper]", 9, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // af (ao, cr)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // ai (ao, cr)
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Sources_search"); // x (f, cr): TRUE
+// [GUI Memory]: 138 MB (+956kb) [00:04:20]
+// [GUI Memory]: 145 MB (+801kb) [00:04:21]
+// WARNING: HEventQueue.dispatchEvent() is taking  1768 ms.
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "BD", true); // OverlayTextField (C, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1564 ms.
+setText("PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE_SEARCH_FIELD", "BD"); // OverlayTextField (C, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BD (BD.bd)]", 6, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, BD (BD.bd)]", 6, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cr): Create HDL Wrapper: addNotify
+selectRadioButton(PAResourceAtoD.AddHDLWrapperDialog_THIS_OPTION_WILL_MAKE_COPY, "Copy generated wrapper to allow user edits"); // a (Q, a)
+// Elapsed time: 27 seconds
+selectRadioButton(PAResourceAtoD.AddHDLWrapperDialog_ADDED_FILE_WOULD_AUTOMATICALLY_BE_UPDATED, "Let Vivado manage wrapper and auto-update"); // a (Q, a)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// 'ad' command handler elapsed time: 31 seconds
+// TclEventType: LOAD_FEATURE
+dismissDialog("Create HDL Wrapper"); // a (cr)
+// bB (cr):  Create HDL Wrapper : addNotify
+// Tcl Message: make_wrapper -files [get_files {{C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd}}] -top 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 975 MB. GUI used memory: 79 MB. Current time: 3/7/22, 7:50:10 AM COT
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [BD 41-1728] Could not find a module with name: BD_intcon_wrapper_bd_0_0  
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-5107] Inferred bus interface 'i_rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-5107] Inferred bus interface 'i_clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository). INFO: [IP_Flow 19-4728] Bus Interface 'i_clk': Added interface parameter 'ASSOCIATED_RESET' with value 'i_rst'. 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [BD 41-1728] Could not find a module with name: BD_bootrom_wrapper_0_0  
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [BD 41-1728] Could not find a module with name: BD_gpio_wrapper_0_0  
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 999 MB (+4382kb) [00:05:09]
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [BD 41-1728] Could not find a module with name: BD_syscon_wrapper_0_0  
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_0_0  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_0_1  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_0_2  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,035 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:50:30 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_1  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_2  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_3  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_4  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,077 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:50:50 AM COT
+// [Engine Memory]: 1,078 MB (+31142kb) [00:05:44]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_5  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_6  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,111 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:51:05 AM COT
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_7  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_8  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_9  
+// [Engine Memory]: 1,146 MB (+14403kb) [00:06:18]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_10  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_11  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,157 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:51:40 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_12  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,174 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:51:55 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_13  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_14  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_15  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,202 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:52:20 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_2_16  
+// [Engine Memory]: 1,218 MB (+15704kb) [00:07:24]
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_1  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_2  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,244 MB. GUI used memory: 77 MB. Current time: 3/7/22, 7:52:50 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_3  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_4  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_5  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,273 MB. GUI used memory: 77 MB. Current time: 3/7/22, 7:53:30 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_6  
+// [Engine Memory]: 1,282 MB (+2525kb) [00:08:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,296 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:53:50 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_7  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_8  
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_9  
+// HMemoryUtils.trashcanNow. Engine heap size: 1,327 MB. GUI used memory: 77 MB. Current time: 3/7/22, 7:54:25 AM COT
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1728] Could not find a module with name: BD_bidirec_19_10  
+// Tcl Message: Wrote  : <C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\BD.bd>  
+// [Engine Memory]: 1,400 MB (+56453kb) [00:09:26]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CLOSE_DIAGRAM
+// Tcl Message: VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/sim/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v 
+// Tcl Message: make_wrapper: Time (s): cpu = 00:00:28 ; elapsed = 00:04:27 . Memory (MB): peak = 1505.047 ; gain = 538.312 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {{C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v}} 
+// [Engine Memory]: 1,471 MB (+1826kb) [00:09:27]
+// a (cr): Critical Messages: addNotify
+// Elapsed time: 267 seconds
+dismissDialog("Create HDL Wrapper"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,471 MB. GUI used memory: 78 MB. Current time: 3/7/22, 7:54:40 AM COT
+// Elapsed time: 12 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HEventQueue.dispatchEvent() is taking  1540 ms.
+// Elapsed time: 57 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv)]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv)]", 3); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 5); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 5); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6); // B (F, cr)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 15 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 6, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 5, true); // B (F, cr) - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1485 ms.
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_CHANGED_MODULES, "Refresh Changed Modules"); // h (ds, cr)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bB (cr):  Refresh Changed Modules : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: update_module_reference BD_intcon_wrapper_bd_0_0 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: Successfully read diagram <BD> from BD file <C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 155 MB (+2926kb) [00:11:36]
+// WARNING: HEventQueue.dispatchEvent() is taking  1917 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Upgrading 'C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded BD_intcon_wrapper_bd_0_0 from intcon_wrapper_bd_v1_0 1.0 to intcon_wrapper_bd_v1_0 1.0 
+// Tcl Message: Wrote  : <C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\BD.bd>  Wrote  : <C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/ui/bd_206cfb42.ui>  
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1505.047 ; gain = 0.000 update_module_reference: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1505.047 ; gain = 0.000 
+dismissDialog("Refresh Changed Modules"); // bB (cr)
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true); // B (F, cr) - Node
+// Elapsed time: 33 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// bB (cr):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd} 
+dismissDialog("Open Block Design"); // bB (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD_bidirec_0_0 (Module Reference Wrapper)]", 19); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD_bidirec_0_0 (Module Reference Wrapper)]", 19); // B (F, cr)
+// Elapsed time: 38 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18); // B (F, cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true, false, false, false, true, false); // B (F, cr) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a (cr): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Create HDL Wrapper"); // a (cr)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// bB (cr):  Create HDL Wrapper : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: make_wrapper -files [get_files {{C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd}}] -top 
+// Tcl Message: Wrote  : <C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\BD.bd>  VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/sim/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v 
+// a (cr): Critical Messages: addNotify
+dismissDialog("Create HDL Wrapper"); // bB (cr)
+applyEnter(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, (String) null); // B (F, cr)
+// TclEventType: FILE_SET_CHANGE
+applyEnter(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, (String) null); // B (F, cr)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 59 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g (Q, A): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// f (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// bB (cr):  Generate Bitstream : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'BD.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// Tcl Message: Wrote  : <C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\BD.bd>  VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/sim/BD.v VHDL Output written to : C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: Exporting to file C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hw_handoff/BD.hwh Generated Block Design Tcl file C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hw_handoff/BD_bd.tcl Generated Hardware Definition File C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.hwdef 
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 1,500 MB. GUI used memory: 92 MB. Current time: 3/7/22, 7:59:55 AM COT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 404ms to process. Increasing delay to 3000 ms.
+// Tcl Message: [Mon Mar  7 08:00:53 2022] Launched impl_1... Run output will be captured here: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:22 ; elapsed = 00:01:08 . Memory (MB): peak = 1573.020 ; gain = 67.973 
+// aZ (cr): Launch Run Critical Messages: addNotify
+// WARNING: HTimer (RSBAttributeDisplay Update Pin Markers Timer) is taking 454ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,541 MB. GUI used memory: 92 MB. Current time: 3/7/22, 8:00:55 AM COT
+// Elapsed time: 71 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (aZ)
+dismissDialog("Launch Run Critical Messages"); // aZ (cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1092 ms. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 634ms to process. Increasing delay to 4000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 163 MB (+179kb) [00:17:24]
+// [Engine Memory]: 1,553 MB (+8755kb) [00:17:28]
+// Elapsed time: 97 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a100tcsg324-1 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // az (O, cr) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.5s
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a100tcsg324-1 ; Vivado Synthesis Defaults", 0); // az (O, cr)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7a100tcsg324-1 ; Vivado Synthesis Defaults", 0); // az (O, cr)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "Out-of-Context Module Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2); // az (O, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1104 ms.
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 835ms to process. Increasing delay to 5000 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 173 MB (+1865kb) [00:20:30]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1513 ms. Increasing delay to 4539 ms.
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1015ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Synthesis Failed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,559 MB. GUI used memory: 106 MB. Current time: 3/7/22, 8:30:55 AM COT
+// Elapsed time: 1836 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages", true); // g (Q, aj): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // aj (cr)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-439] module 'BD_bidirec_0_0' not found [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:569]. ]", 14, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\synth\BD.v;-;;-;16;-;line;-;569;-;;-;16;-;"); // ah (O, cr)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-208] No val for DA Elab Attr. ]", 3, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-208] No val for DA Elab Attr. ]", 3, false, false, false, false, false, true); // ah (O, cr) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-208] No val for DA Elab Attr. ]", 3, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-208] No val for DA Elab Attr. ]", 3, false, false, false, false, false, true); // ah (O, cr) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-19] Could not find the file '$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v'.. ]", 2, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages]", 1, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-19] Could not find the file '$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v'.. ]", 2, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-208] No val for DA Elab Attr. ]", 3, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-192] Failed to load run synth_1. Strategy Vivado Synthesis Defaults (Vivado Synthesis 2020) not recognized by Vivado. . . ]", 4, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-532] XML ERROR: Project Option SimulatorInstallDirModelSim has no valid value. ]", 5, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Project 1-505] Unrecognized Option Name IPDefaultOutputPath. ]", 6, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [HDL 9-806] Syntax error near begin. [c:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/imports/src/SweRVolfSoC/SweRVEh1CoreComplex/include/pic_map_auto.h:2]. ]", 7, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.. Please check your design and connect them as needed: . /intcon_wrapper_bd_0/wb_spi_flash_dat_i. /intcon_wrapper_bd_0/wb_spi_flash_ack_i. /intcon_wrapper_bd_0/wb_spi_flash_err_i. /intcon_wrapper_bd_0/wb_spi_flash_rty_i. /intcon_wrapper_bd_0/wb_sys_err_i. /intcon_wrapper_bd_0/wb_sys_rty_i. /intcon_wrapper_bd_0/wb_uart_dat_i. /intcon_wrapper_bd_0/wb_uart_ack_i. /intcon_wrapper_bd_0/wb_uart_err_i. /intcon_wrapper_bd_0/wb_uart_rty_i. /intcon_wrapper_bd_0/wb_ptc_dat_i. /intcon_wrapper_bd_0/wb_ptc_ack_i. /intcon_wrapper_bd_0/wb_ptc_err_i. /intcon_wrapper_bd_0/wb_ptc_rty_i. /intcon_wrapper_bd_0/wb_spi_accel_dat_i. /intcon_wrapper_bd_0/wb_spi_accel_ack_i. /intcon_wrapper_bd_0/wb_spi_accel_err_i. /intcon_wrapper_bd_0/wb_spi_accel_rty_i. /syscon_wrapper_0/ptc_irq. . ]", 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, BD, General Messages]", 10, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, BD, General Messages]", 10, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, BD, General Messages, [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.. Please check your design and connect them as needed: . /syscon_wrapper_0/ptc_irq. /intcon_wrapper_bd_0/wb_spi_flash_dat_i. /intcon_wrapper_bd_0/wb_spi_flash_ack_i. /intcon_wrapper_bd_0/wb_spi_flash_err_i. /intcon_wrapper_bd_0/wb_spi_flash_rty_i. /intcon_wrapper_bd_0/wb_sys_err_i. /intcon_wrapper_bd_0/wb_sys_rty_i. /intcon_wrapper_bd_0/wb_uart_dat_i. /intcon_wrapper_bd_0/wb_uart_ack_i. /intcon_wrapper_bd_0/wb_uart_err_i. /intcon_wrapper_bd_0/wb_uart_rty_i. /intcon_wrapper_bd_0/wb_ptc_dat_i. /intcon_wrapper_bd_0/wb_ptc_ack_i. /intcon_wrapper_bd_0/wb_ptc_err_i. /intcon_wrapper_bd_0/wb_ptc_rty_i. /intcon_wrapper_bd_0/wb_spi_accel_dat_i. /intcon_wrapper_bd_0/wb_spi_accel_ack_i. /intcon_wrapper_bd_0/wb_spi_accel_err_i. /intcon_wrapper_bd_0/wb_spi_accel_rty_i. . ]", 11, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 12, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 13, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-439] module 'BD_bidirec_0_0' not found [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:569]. ]", 14, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. ]", 15, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details. ]", 16, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs]", 17, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs, BD]", 18, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, Out-of-Context Module Runs]", 17, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details. ]", 16, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. ]", 15, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. ]", 15, true); // ah (O, cr) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\synth\BD.v;-;;-;16;-;line;-;13;-;;-;16;-;"); // ah (O, cr)
+selectCodeEditor("BD.v", 82, 177); // C (w, cr)
+selectCodeEditor("BD.v", 108, 151); // C (w, cr)
+selectCodeEditor("BD.v", 79, 97); // C (w, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-439] module 'BD_bidirec_0_0' not found [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:569]. ]", 14, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\synth\BD.v;-;;-;16;-;line;-;569;-;;-;16;-;"); // ah (O, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper)]", 20, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper)]", 20, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''BD_bidirec_0_0.xci' IP is part of a block design. Please use the block design 'BD' to customize the IP. (Re-customize IP)'
+// 'B' command handler elapsed time: 3 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 19, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd)]", 18, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// bB (cr):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/BD.bd} 
+dismissDialog("Open Block Design"); // bB (cr)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 12); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 12); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 13, true); // ah (O, cr) - Node
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 13); // ah (O, cr)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 13); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-439] module 'BD_bidirec_0_0' not found [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:569]. ]", 14, false); // ah (O, cr)
+// Elapsed time: 122 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-439] module 'BD_bidirec_0_0' not found [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:569]. ]", 14, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\synth\BD.v;-;;-;16;-;line;-;569;-;;-;16;-;"); // ah (O, cr)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. ]", 15, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. ]", 15, true, false, false, false, false, true); // ah (O, cr) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. , [Synth 8-6156] failed synthesizing module 'BD_wrapper' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/hdl/BD_wrapper.v:12]. ]", 16, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\bd\BD\hdl\BD_wrapper.v;-;;-;16;-;line;-;12;-;;-;16;-;"); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-6156] failed synthesizing module 'BD' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/bd/BD/synth/BD.v:13]. , [Synth 8-6156] failed synthesizing module 'rvfpga' [C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.srcs/sources_1/imports/src/rvfpga.sv:25]. ]", 17, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\Usuario\Documents\Noveno Semestre\Arquitectura de computadores\RVfpgaSoC-v1.0\RVfpgaSoC\Labs\LabProjects\Lab1.srcs\sources_1\imports\src\rvfpga.sv;-;;-;16;-;line;-;25;-;;-;16;-;"); // ah (O, cr)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BD_wrapper.v]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BD_wrapper.v]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BD_wrapper.v]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+// ad (cr): Unable to Open File: addNotify
+selectButton(PAResourceOtoP.OpenFileAction_OK, "OK"); // a (ad)
+dismissDialog("Unable to Open File"); // ad (cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BD_wrapper.v]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BD_wrapper.v]", 4, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cr)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/$PGENDIR/sources_1/bd/BD/hdl/BD_wrapper.v}} 
+// Elapsed time: 273 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BD_wrapper.v", 3); // i (h, cr)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BD_wrapper.v", 3, true, false); // i (h, cr) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v)]", 16, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v)]", 16, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v)]", 16, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v)]", 16, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v)]", 18); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper)]", 19, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper)]", 19, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// HOptionPane Warning: ''BD_bidirec_0_0.xci' IP is part of a block design. Please use the block design 'BD' to customize the IP. (Re-customize IP)'
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper), BD_bidirec_0_0 (BD_bidirec_0_0.v), inst : bidirec (bidir.v)]", 21, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper), BD_bidirec_0_0 (BD_bidirec_0_0.v), inst : bidirec (bidir.v)]", 21, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper), BD_bidirec_0_0 (BD_bidirec_0_0.v)]", 20, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rvfpga (rvfpga.sv), swervolf : BD_wrapper (BD_wrapper.v), BD_i : BD (BD.bd), BD (BD.v), bidirec_0 : BD_bidirec_0_0 (Module Reference Wrapper), BD_bidirec_0_0 (BD_bidirec_0_0.v)]", 20, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cw' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_DELETE
+// bB (cr):  Generate Bitstream : addNotify
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Mar  7 08:43:44 2022] Launched impl_1... Run output will be captured here: C:/Users/Usuario/Documents/Noveno Semestre/Arquitectura de computadores/RVfpgaSoC-v1.0/RVfpgaSoC/Labs/LabProjects/Lab1.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:18 ; elapsed = 00:01:03 . Memory (MB): peak = 1712.324 ; gain = 14.422 
+// Elapsed time: 63 seconds
+dismissDialog("Generate Bitstream"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1659 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2261 ms. Increasing delay to 5000 ms.
+// Elapsed time: 20 seconds
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BD ;  ; Running Submodule Runs ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Mar 07 08:00:54 COT 2022 ; 00:43:04 ;  ;  ;  ; ", 3); // az (O, cr)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3379 ms. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3854 ms. Increasing delay to 11562 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4432 ms. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 716 ms. Decreasing delay to 2716 ms.
+// [GUI Memory]: 183 MB (+877kb) [00:59:19]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3321 ms. Increasing delay to 9963 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1469ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1469 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 8534 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 697 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6111 ms. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5383 ms. Increasing delay to 16149 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 533 ms. Decreasing delay to 2533 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 193 MB (+885kb) [01:01:54]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 203 MB (+212kb) [01:02:59]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 214 MB (+1044kb) [01:03:29]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// [GUI Memory]: 225 MB (+372kb) [01:04:42]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 242 MB (+5751kb) [01:05:23]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,559 MB. GUI used memory: 109 MB. Current time: 3/7/22, 9:00:57 AM COT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 1981 seconds
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "FF", 11); // az (O, cr)
+selectTreeTableHeader(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BRAM", 12); // az (O, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 433 seconds
+dismissDialog("Bitstream Generation Completed"); // aj (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,559 MB. GUI used memory: 113 MB. Current time: 3/7/22, 9:30:58 AM COT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3201 ms. Increasing delay to 9603 ms.
