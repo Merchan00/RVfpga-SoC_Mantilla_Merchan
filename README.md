@@ -126,7 +126,8 @@ Generating trace from Verilator
 ## Conclusiones
 - Se generaron las diferentes conexiones usando vivado, es importante que al momento de generar el Bitstream se tenga la versión 2019.2 de Vivado para que no haya errores.
 - La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
-- Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
+- Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 19.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
+
 
 
 ## Referencias
