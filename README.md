@@ -131,6 +131,7 @@ Después de utilizar el PlatformIO para generar el archivo "trace.vcd" y otros m
 
 Adicionalmente, para comprobar que no sea efecto de la versión de PlatformIO, se trabajó con la versión más actual (2.4.2) y con la versión utilizada en la guía de la práctica (2.0.1), este cambio no hace que se arroje el archivo.
 
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/plat.png)
 
 
 ## Conclusiones
