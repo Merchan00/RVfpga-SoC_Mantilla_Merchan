@@ -51,7 +51,7 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 - [Descarga archivos boards Vivado](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-sdk?redirect=1#installing_digilent_board_files)
 - [Instalación board en Nexys A7 en Vivado](https://store.digilentinc.com/nexys-a7-fpga-trainer-board-recommended-for-ece-curriculum/)
 - [Descarga Vivado](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2019-2.html)
-- [Arquitectura SoC del Nexys A7](https://github.com/chipsalliance/Cores-SweRVolf)
+- [SweRVolf Core](https://github.com/chipsalliance/Cores-SweRVolf)
 - [PlatformIO - RVfpga: Digilent Nexys A7](https://docs.platformio.org/en/latest/boards/chipsalliance/swervolf_nexys.html)
 
 
