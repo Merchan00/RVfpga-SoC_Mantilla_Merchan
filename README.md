@@ -56,7 +56,7 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 
 ## Laboratorio 2
 
-### Correr el programa con Verilator
+### Ejecutar el programa con Verilator
 
 Se agrega el archivo generado BD.v generado en el laboratorio 1 a la carpeta "SweRVolfSoC" dentro de los recursos del Laboratorio 2.
 
@@ -137,10 +137,13 @@ Adicionalmente, para comprobar que no sea efecto de la versión de PlatformIO, s
 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/plat.png)
 
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error1.jpeg)
+
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error2.jpeg)
+
 
 ## Conclusiones
 - Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 2019.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
-- Se debe trabajar con extremo cuidado las direcciones de los archivos, pues se trabaja con fuentes adicionales propuestas por el ejercicio. 
 - La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
 - En la generación de la traza del comportamiento, no se genera ningún error, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido a alguna interferencia entre Verilator y la extensión de PlatformIO de VSCode.
 
