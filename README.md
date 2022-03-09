@@ -13,17 +13,26 @@ Est. Ingenieria electrónica - 2172329
 <br/>
 mishellmc1700@gmail.com
 
+Este curso fue creado por Imagination University Programme, muestra como construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos.
+El curso también muestra como cargar el sistema operativo en tiempo real Zephyr (RTOS) en el SweRVolf y ejecutar programas.
+[Curso Imagination] (https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
+
+Se realizaron los primeros dos laboratorios presentados en este curso.
+
 ## Herramientas
-- Vivado v2019.2 + Digilent Board Files
-- Visual Studio Code + Extensión PlatformIO
-- GTKWave
-- Verilator v4.106
+- [Vivado v2019.2](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2019-2.html)
+- [Digilent Board Files](https://digilent.com/reference/programmable-logic/guides/installing-vivado-and-sdk?redirect=1)
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+- [Extensión PlatformIO](https://platformio.org/)
+- [GTKWave](http://gtkwave.sourceforge.net/)
+- [Verilator v4.106](https://github.com/verilator/verilator)
 
 ## Laboratorio 1
 
 ### Conexión de los módulos
-Se utilizaron los siguientes módulos:
+Utilizando la función de diseño de bloques de Vivado se añaden los módulos necesarios para crear el subconjunto SweRVolfX y luego conectar los módulos entre sí.
 
+Se utilizaron los siguientes módulos:
 - 1 SweRV Core (swerv_wrapper_verilog)
 - 1 Interconnect Wrapper (intcon_wrapper_bd)
 - 1 Boot-ROM (bootrom_wrapper)
@@ -35,7 +44,10 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 [Conexiones](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/BD.pdf).
 
 ### Generación del bitstream
+Luego de realizar las conexiones entre los módulos obtenemos el subconjunto SweRVolfX utilizando la herramienta de diseño de bloques de Vivado y hemos generado un wrapper de Verilog, estamos listos para generar el bitstream que utilizaremos para configurar la FPGA.
+Este bitstream se genera a partir de una Nexys A7-100T, consiste en el diseño de la síntesis y la implementación del modelo.
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/Bitstream.png)
+
 
 ### Recursos utilizados 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/LUT.png)
