@@ -46,7 +46,7 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 
 ### Generación del bitstream
 Luego de realizar las conexiones entre los módulos, obtenemos el subconjunto SweRVolfX utilizando la herramienta de diseño de bloques de Vivado y hemos generado un wrapper de Verilog, estamos listos para generar el bitstream que utilizaremos para configurar la FPGA.
-\\
+
 Este bitstream se genera a partir de una Nexys A7-100T, consiste en el diseño de la síntesis y la implementación del modelo.
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/Bitstream.png)
 
