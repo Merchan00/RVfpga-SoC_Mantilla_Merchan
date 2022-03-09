@@ -15,7 +15,8 @@ mishellmc1700@gmail.com
 
 Este curso fue creado por Imagination University Programme, muestra como construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos.
 El curso también muestra como cargar el sistema operativo en tiempo real Zephyr (RTOS) en el SweRVolf y ejecutar programas.
-[Curso Imagination](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
+
+[Introduction to RVfpgaSoC - Imagination](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
 
 Se realizaron los primeros dos laboratorios presentados en este curso.
 
@@ -44,7 +45,8 @@ Se realizan conexiones internas y externas tal como se muestra en el archivo.
 [Conexiones](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/BD.pdf).
 
 ### Generación del bitstream
-Luego de realizar las conexiones entre los módulos obtenemos el subconjunto SweRVolfX utilizando la herramienta de diseño de bloques de Vivado y hemos generado un wrapper de Verilog, estamos listos para generar el bitstream que utilizaremos para configurar la FPGA.
+Luego de realizar las conexiones entre los módulos, obtenemos el subconjunto SweRVolfX utilizando la herramienta de diseño de bloques de Vivado y hemos generado un wrapper de Verilog, estamos listos para generar el bitstream que utilizaremos para configurar la FPGA.
+\\
 Este bitstream se genera a partir de una Nexys A7-100T, consiste en el diseño de la síntesis y la implementación del modelo.
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/Bitstream.png)
 
