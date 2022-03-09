@@ -137,7 +137,7 @@ Generating trace from Verilator
 
 Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace.vcd" con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
 
-![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra1.png)
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra1n.png)
 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra2.png)
 
