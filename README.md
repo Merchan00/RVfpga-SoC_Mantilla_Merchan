@@ -135,7 +135,7 @@ Generating trace from Verilator
 ================================================= [SUCCESS] Took 4.49 seconds =================================================
 ```
 
-Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace.vcd" con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
+Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace1.vcd" (el archivo supera el tamaño permitido por Git, entonces lo puede encontrar en el siguente [enlace](https://drive.google.com/file/d/181ZfMa8RJT4jShKXa2QxValg4CYcH3XU/view?usp=sharing)) con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra1n.png)
 
@@ -200,8 +200,8 @@ Adicionalmente, para comprobar que no sea efecto de la versión de PlatformIO, s
 ## Conclusiones
 - Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 2019.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
 - La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
-- En la generación de la traza del comportamiento, no se genera ningún error, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido por un problema con Verilator ya que en Windows 10 no se pudo instalar la versión 4.020 mencionada en la guía de instalación de las herramientas.
-
+- En la generación de la traza del comportamiento, se generan algunos errores que se solucionan, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido por un problema con Verilator ya que en Windows 10 no se pudo instalar la versión 4.020 mencionada en la guía de instalación de las herramientas.
+- Analizando el archivo “trace1.vcd” generado utilizando el archivo “BD.v” realizado, podemos ver que el comportamiento es el esperado, dándonos a entender que se realizaron correctamente las conexiones de los diferentes bloques. Adicionalmente, podemos evidenciar que los efectos de las instrucciones se dan 8 o más ciclos después de que fueron realizadas, esto debido a la configuración de 9 etapas de Pipeline del procesador.
 
 
 ## Referencias
