@@ -135,7 +135,7 @@ Generating trace from Verilator
 ================================================= [SUCCESS] Took 4.49 seconds =================================================
 ```
 
-Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace1.vcd" (el archivo supera el tamaño permitido por Git, entonces lo puede encontrar en el siguente [enlace](https://drive.google.com/file/d/181ZfMa8RJT4jShKXa2QxValg4CYcH3XU/view?usp=sharing)) con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
+Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace1.vcd" (el archivo supera el tamaño permitido por Git, entonces se puede encontrar en el siguente [enlace](https://drive.google.com/file/d/181ZfMa8RJT4jShKXa2QxValg4CYcH3XU/view?usp=sharing)) con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra1n.png)
 
