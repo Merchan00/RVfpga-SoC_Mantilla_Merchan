@@ -15,7 +15,7 @@ mishellmc1700@gmail.com
 
 Este curso fue creado por Imagination University Programme, muestra como construir un subconjunto de SweRVolfX SoC desde cero utilizando bloques de construcción como el núcleo SweRV, las memorias y los periféricos.
 El curso también muestra como cargar el sistema operativo en tiempo real Zephyr (RTOS) en el SweRVolf y ejecutar programas.
-[Curso Imagination] (https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
+[Curso Imagination](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
 
 Se realizaron los primeros dos laboratorios presentados en este curso.
 
