@@ -91,12 +91,6 @@ cd [PATH]\RVfpga-SoC_Mantilla_Merchan\LabResources\Lab2\verilatorSIM
 make clean
 make
 ```
-Para corregir unos errores de esta parte, se debe incluir en el archivo verilated.vpp lo siguiente:
-```cpp
-#include <limits>
-#include <cstddef>
-#include <iostream>
-```
 
 De esta ejecución se generan los archivos de simulación y en especial "Vrvfpgasim.exe" que sirve para generar un archivo para poder revisar la simulación en GTKWave
 
@@ -141,7 +135,58 @@ Generating trace from Verilator
 ================================================= [SUCCESS] Took 4.49 seconds =================================================
 ```
 
-#### Error en la generación de trace.vcd
+Con ayuda del compañero Vladimir Sebastian Villamizar Anaya - 2171522, se genera el archivo "trace.vcd" con el cuál podemos comprobar el correcto funcionamiento en las siguientes imagenes:
+
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra1.png)
+
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra2.png)
+
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/tra3.png)
+
+Comparando los resultados obtenidos con los presentados en la guía del Laboratorio 2. Podemos comprobar que tienen el mismo funcionamiento.
+
+#### Errores en la ejecución
+En la instalación de Verilator en Windows 10, se genera un error al ejecutar la línea make de los siguientes comandos.
+```shh
+ git clone https://git.veripool.org/git/verilator
+ cd verilator
+ git pull
+ git checkout v4.020
+ autoconf
+ ./configure
+ make
+ make install
+ ```
+ ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error1.jpeg)
+ 
+Para corregir este error, en lugar de instalar la versión 4.020 de verilator se instala la versión 4.160.
+```shh
+ git clone https://git.veripool.org/git/verilator
+ cd verilator
+ git pull
+ git checkout v4.120
+ autoconf
+ ./configure
+ make
+ make install
+ ```
+ 
+Luego en la ejecución de los comandos:
+```sh
+cd [PATH]\RVfpga-SoC_Mantilla_Merchan\LabResources\Lab2\verilatorSIM
+make clean
+make
+```
+Se genera el siguiente error:
+ 
+![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error2.jpeg)
+ 
+Para corregir este error, se incluye en el archivo verilated.vpp lo siguiente:
+```cpp
+#include <limits>
+#include <cstddef>
+#include <iostream>
+```
 
 Después de utilizar el PlatformIO para generar el archivo "trace.vcd" y otros más, el archivo para visualizar utilizando GTKWave, "trace.vcd" no aparece en la carpeta donde aparecen el resto de los archivos generados.
 
@@ -151,15 +196,11 @@ Adicionalmente, para comprobar que no sea efecto de la versión de PlatformIO, s
 
 ![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/plat.png)
 
-![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error1.jpeg)
-
-![alt text](https://github.com/Merchan00/RVfpga-SoC_Mantilla_Merchan/blob/main/error2.jpeg)
-
 
 ## Conclusiones
 - Al realizar las conexiones entre módulos es recomendable realizar una revisión exhaustiva de los puertos de conexión y los modulos implementados, y trabajar únicamente con la versión 2019.2 de vivado, debido a que se puede incurrir en errores de la generación del HDL wrapper, implica errores de sintesís e implementación en el archivo bitstream.
 - La simulación binaria del programa es importante debido a que nos ayuda a comprobar que las conexiones hechas y el bloque de diseño generado en la primera práctica funciona correctamente. Adicionalmente, en esta página se resalta el uso de la extensión PlatformIO IDE de Visual Studio Code que permite generar la traza para poderla ver en GTKWave, comprobar el uso de la memoria y otras opciones.
-- En la generación de la traza del comportamiento, no se genera ningún error, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido a alguna interferencia entre Verilator y la extensión de PlatformIO de VSCode.
+- En la generación de la traza del comportamiento, no se genera ningún error, pero al momento de arrojar el archivo “trace.vcd”, que contine la información para poder verla en GTKWave, no es generado. Esto puede ser debido por un problema con Verilator ya que en Windows 10 no se pudo instalar la versión 4.020 mencionada en la guía de instalación de las herramientas.
 
 
 
